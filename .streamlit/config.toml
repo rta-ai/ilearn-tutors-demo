@@ -1,0 +1,12 @@
+[theme]
+primaryColor = "#2563eb"
+font = "sans serif"
+
+[server]
+maxUploadSize = 50
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"

@@ -1,5 +1,25 @@
-# Object file
-*.o
+# Secrets
+.env
+.streamlit/secrets.toml
 
-# Ada Library Information
-*.ali
+# Local vector store
+data/chroma_db/
+data/ocr_cache/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Runtime data and third-party reference material
+data/exams/
+data/syllabus/
+data/attempts/
+data/sample_papers/*.pdf
