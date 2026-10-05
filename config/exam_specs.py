@@ -17,6 +17,9 @@ EXTENDED = "extended"
 
 OBJECTIVE_TYPES = {MCQ, TRUE_FALSE, MULTI_SELECT}
 
+# Suggested minutes per question on the real GCSE English Language papers
+SUGGESTED_MINUTES = {1: 5, 2: 10, 3: 15, 4: 20, 5: 45}
+
 SECTION_A = "Section A: Reading"
 SECTION_B = "Section B: Writing"
 FULL_PAPER = "Full paper"

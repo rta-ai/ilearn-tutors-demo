@@ -32,6 +32,10 @@ CSS = """
 .ilt-badge {display: inline-block; padding: .1rem .55rem; border-radius: 999px; font-size: .78rem;
             background: rgba(37,99,235,.12); color: #2563eb; margin-right: .35rem;}
 .ilt-footer {font-size: .78rem; color: #6b7280; text-align: center; padding-top: .5rem;}
+.ilt-hero {text-align: center; padding: 1.5rem 0 1rem;}
+.ilt-hero h1 {font-size: 2.6rem; margin-bottom: 0;}
+.ilt-hero h3 {font-weight: 500; color: #2563eb; margin-top: .25rem;}
+.ilt-hero p {color: #6b7280; max-width: 640px; margin: .5rem auto 0;}
 </style>
 """
 
@@ -52,7 +56,10 @@ def sidebar_footer() -> None:
         st.divider()
         if settings.LOGO_PATH.exists():
             st.image(str(settings.LOGO_PATH), width=120)
-        st.markdown(f"<div class='ilt-footer'>{settings.FOOTER_TEXT}</div>", unsafe_allow_html=True)
+
+
+def main_footer() -> None:
+    st.markdown(f"<hr/><div class='ilt-footer'>{html.escape(settings.FOOTER_TEXT)}</div>", unsafe_allow_html=True)
 
 
 def badge(text: str) -> str:
@@ -74,8 +81,8 @@ def friendly_errors(action: str):
 
 
 def goto(view: str) -> None:
-    """Switch sidebar view on the next rerun."""
-    st.session_state["_goto"] = view
+    """Switch to another screen on the next rerun."""
+    st.session_state["view"] = view
     st.rerun()
 
 
@@ -99,13 +106,14 @@ def render_sources(exam: Exam) -> None:
             render_source(src.lines)
 
 
-def question_html(number: int, marks: int, text: str) -> str:
+def question_html(number: int, marks: int, text: str, minutes: int = 0) -> str:
     body = "".join(
         f"<div style='margin-left:1.2rem'>&bull; {html.escape(line)}</div>" if bullet else f"<div>{html.escape(line)}</div>"
         for bullet, line in question_lines(text)
     )
     return (
-        f"<div class='ilt-q'><span class='ilt-marks'>[{marks} mark{'s' if marks != 1 else ''}]</span>"
+        f"<div class='ilt-q'><span class='ilt-marks'>[{marks} mark{'s' if marks != 1 else ''}"
+        f"{f' · about {minutes} min' if minutes else ''}]</span>"
         f"<b>Question {number}</b>{body}</div>"
     )
 

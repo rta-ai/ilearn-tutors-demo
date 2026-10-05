@@ -1,5 +1,7 @@
 # CLAUDE.md
 
+> Brief v2 (2026-10-04): show the whole platform, make one subject work. See "Platform shell" below.
+
 Original-practice-paper generator (Streamlit + Gemini + ChromaDB) for the client I Learn Tutors. The live client
 demo is on **7 October 2026**. Original brief: `CLAUDE_CODE_PROMPT_ILearnTutors_Demo.md` (superseded where this file
 differs).
@@ -17,6 +19,18 @@ differs).
 - **Human in the loop**: (1) teacher approves the syllabus topics (`core/syllabus.py`), generation refuses without
   them and flags questions outside them; (2) teacher reviews and approves each draft (`Exam.status`) before students
   get it. `ALLOW_STUDENT_ON_DEMAND=true` is a demo-only escape hatch (labelled unreviewed drafts, queued for review).
+
+## Platform shell (brief v2)
+- Navigation is `st.session_state["view"]`: landing, student_selection, exam, results, teacher (`ui.components.goto`).
+- `config/curriculum_data.py` holds the full hierarchy; nodes without `active: True` show Coming Soon. English
+  Language papers link to `exam_specs` via `spec_key` and to the reference store via `store_subject`.
+- `ui/accessibility.py`: settings in `a11y_*` session keys, injected as CSS on every screen. Dyslexia font loads from the
+  jsDelivr GitHub mirror of OpenDyslexic (`settings.DYSLEXIA_FONT_URL`). Streamlit's icon font lives on `<span>`s, so the
+  font override targets text elements only.
+- Quick Quiz and Practice by Topic are Coming Soon. Plan: Quick Quiz reuses questions from approved papers (reviewed and
+  free of extra generation cost), with objective questions marked instantly and written answers in one call.
+- Not yet built from the v2 brief: Quick Quiz / Practice by Topic, per-question Approve/Edit/Reject plus a question bank
+  (teacher review is per paper with per-question flag and edit), placeholder analytics charts.
 
 ## Decisions that differ from the brief (deliberate)
 - `google-genai` SDK, `gemini-embedding-001` (768 dims). `gemini-2.5-flash` returns 404 for new keys; default
@@ -50,8 +64,9 @@ differs).
 - Paper 2 Q1 (choose four) needed a stricter prompt plus `_lift_statements` repair; **not yet re-verified live**.
 
 ## Next steps
-1. Enable billing, then live-test `gcse_eng_p2` (Q1 should have 8 options) and the Topic Test format.
-2. Click through the Streamlit UI by hand: syllabus approve, generate, review (flag/edit/approve/reject), student attempt,
+1. Build Quick Quiz and Practice by Topic, and per-question teacher actions with a question bank.
+2. Enable billing, then live-test `gcse_eng_p2` (Q1 should have 8 options) and the Topic Test format.
+3. Click through the Streamlit UI by hand: syllabus approve, generate, review (flag/edit/approve/reject), student attempt,
    results, PDF downloads. Only the offline AppTest render checks have been run.
-3. Pre-generate and approve a few papers for demo day; deploy to HF Space `RTAAI/ilearn-tutors-demo` with the
+4. Pre-generate and approve a few papers for demo day; deploy to HF Space `RTAAI/ilearn-tutors-demo` with the
    `GOOGLE_API_KEY` secret.

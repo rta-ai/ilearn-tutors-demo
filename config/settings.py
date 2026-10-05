@@ -94,8 +94,9 @@ GRADE_BOUNDARIES = [
 WEAK_AREA_THRESHOLD = 0.5  # below 50% of available marks = weak area
 
 # --- UI ----------------------------------------------------------------------
-APP_TITLE = "I Learn Tutors — AI Assessment Engine"
-FOOTER_TEXT = "Built by RTA AI | AI-Powered Assessment Engine for I Learn Tutors"
+APP_TITLE = "I Learn Tutors — AI Exam Preparation Platform"
+FOOTER_TEXT = "I Learn Tutors — Powered by RTA AI"
+DYSLEXIA_FONT_URL = "https://cdn.jsdelivr.net/gh/antijingoist/opendyslexic@master/compiled/OpenDyslexic-Regular.woff"
 SUBJECT_CHOICES = [
     "English Language",
     "English Literature",

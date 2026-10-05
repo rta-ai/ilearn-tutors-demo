@@ -1,5 +1,5 @@
 ---
-title: I Learn Tutors AI Assessment Engine
+title: I Learn Tutors AI Exam Preparation
 emoji: 📝
 colorFrom: blue
 colorTo: indigo
@@ -11,7 +11,7 @@ pinned: false
 short_description: Original practice exams, AI marking and weak-area feedback
 ---
 
-# I Learn Tutors: AI Assessment Engine (Demo)
+# I Learn Tutors: AI Exam Preparation Platform (Demo)
 
 Built by RTA AI. Teachers upload past papers and revision guides **as reference only**. The system learns the exam
 format, style and syllabus from them and writes **new, original practice papers** with the same question pattern,
@@ -43,6 +43,20 @@ TEACHER                                                    STUDENT
 | Unreviewed content reaching students | Students only get papers with status `approved`. (Optional demo switch: `ALLOW_STUDENT_ON_DEMAND=true` lets a student generate a labelled draft that is queued for review.) |
 | Bad line references or option lists | Validated after generation and shown to the reviewer as warnings. |
 
+## What the demo shows
+
+The full platform structure is visible, but only **AQA GCSE English Language (Paper 1 and Paper 2, Full Exam mode)**
+generates real papers. Everything else is shown with a polished "Coming Soon" message.
+
+| Area | Status |
+|---|---|
+| Landing page, student / teacher roles | Working |
+| 8-step selection: country, curriculum, board, qualification, subject, paper, mode, confirm | Working (full hierarchy in [config/curriculum_data.py](config/curriculum_data.py)) |
+| AQA GCSE English Language, Full Exam | Working |
+| Other subjects, boards, A-Level, SATs, IGCSE, IELTS, Quick Quiz, Practice by Topic | Coming Soon |
+| Accessibility: text size, high contrast, dyslexia font (OpenDyslexic), line spacing, colour overlay, extended time (+25%), reduced distraction | Working on every screen |
+| Text-to-speech, BSL, multi-language, analytics, adaptive difficulty | Coming Soon |
+
 ## Supported formats
 
 | Format | Questions |
@@ -67,8 +81,8 @@ Get a key at https://aistudio.google.com/apikey. **The free tier allows only abo
 One full paper costs about 3 requests and the first read of a scanned PDF about 8, so enable billing on the Google AI
 project for rehearsals and the live demo.
 
-Demo run-through: Teacher Panel → upload a PDF → Syllabus scope → Approve → Generate paper → Review & approve →
-Student Panel → Get my paper → Start → Submit → Results.
+Demo run-through: Home → Teacher → upload a PDF → Syllabus scope → Approve → Generate paper → Review & approve →
+Home → Student → the 8 selection steps → Start exam → Submit → Results.
 
 ## Deploy to Hugging Face Spaces
 
@@ -91,7 +105,8 @@ Student Panel → Get my paper → Start → Submit → Results.
 | `core/exam_generator.py`, `core/mark_scheme.py` | Generation |
 | `core/exam_store.py` | Drafts, review status, approved bank, attempts |
 | `core/grader.py`, `core/feedback.py` | Marking and weak-area analysis |
-| `ui/` | Streamlit views (Teacher, Student, Results) |
+| `config/curriculum_data.py` | The whole curriculum hierarchy, with `active` flags |
+| `ui/` | Screens: landing, student selection, exam interface, results dashboard, teacher panel, accessibility |
 | `utils/` | Output cleaning, originality and syllabus validation, PDF export |
 
 ## Integrating with the I Learn Tutors platform

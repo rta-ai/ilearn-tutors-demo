@@ -157,6 +157,7 @@ class Question(BaseModel):
     focus_topic: str = ""
     chunk_ids: list[str] = []
     grounding_score: float = 0.0  # 0-1 lexical overlap with cited chunks
+    suggested_minutes: int = 0  # suggested time on this question (0 = not specified)
 
 
 class ExamConfig(BaseModel):

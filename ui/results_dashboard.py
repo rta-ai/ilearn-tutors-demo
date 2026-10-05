@@ -1,19 +1,21 @@
 """Results view: scores, per-question feedback, weak areas, revision plan."""
 from __future__ import annotations
 
-import pandas as pd
+import html
+
 import streamlit as st
 
-from core.feedback import source_pages_for_topic
+from core.feedback import next_steps, source_pages_for_topic
 from core.schemas import Exam, GradingResult
 from ui import components as ui
 from utils import pdf_exporter
 
 
 def render() -> None:
-    ui.page_header("Results", "AI marking against the mark scheme, with feedback and a revision plan.")
+    ui.page_header("Your results", "AI marking against the mark scheme, with feedback and a revision plan.")
     exam: Exam | None = st.session_state.get("exam")
     result: GradingResult | None = st.session_state.get("result")
+    scheme = st.session_state.get("mark_scheme")
     if exam is None or result is None or result.exam_id != exam.exam_id:
         st.info("No results yet. Complete and submit an exam in the Student Panel.")
         return
@@ -33,11 +35,17 @@ def render() -> None:
     left, right = st.columns([1.2, 1], gap="large")
     with left:
         st.subheader("Performance by area")
-        if result.area_scores:
-            df = pd.DataFrame(
-                {"Area": [a.area for a in result.area_scores], "Score (%)": [round(100 * a.ratio) for a in result.area_scores]}
-            ).set_index("Area")
-            st.bar_chart(df, horizontal=True, y_label="", x_label="Score (%)")
+        for area in result.area_scores:
+            pct = round(100 * area.ratio)
+            colour = "#dc2626" if area.ratio < 0.5 else "#d97706" if area.ratio < 0.7 else "#16a34a"
+            st.markdown(
+                f"<div style='margin-bottom:.6rem'><div style='display:flex;justify-content:space-between'>"
+                f"<span>{html.escape(area.area)}</span><b>{area.awarded}/{area.available} ({pct}%)</b></div>"
+                f"<div style='background:rgba(128,128,128,.25);border-radius:6px;height:10px'>"
+                f"<div style='width:{pct}%;background:{colour};height:10px;border-radius:6px'></div></div></div>",
+                unsafe_allow_html=True,
+            )
+        st.caption("Red: needs work · Amber: developing · Green: secure")
     with right:
         st.subheader("Areas to work on")
         if result.weak_areas:
@@ -49,6 +57,10 @@ def render() -> None:
         for t in result.revision_topics:
             where = source_pages_for_topic(exam, t)
             st.markdown(f"- {t}" + (f"  \n  <small>See {where}</small>" if where else ""), unsafe_allow_html=True)
+
+    st.subheader("Recommended next steps")
+    for step in next_steps(exam, result.area_scores, result.revision_topics):
+        st.markdown(f"- {step}")
 
     st.subheader("Question-by-question feedback")
     answers = {a.number: a for a in result.answers}
@@ -71,6 +83,12 @@ def render() -> None:
                 st.markdown(f"**How to improve:** {g.how_to_improve}")
             if g.auto_marked:
                 st.caption("Auto-marked against the mark scheme.")
+            item = scheme.item(g.number) if scheme else None
+            if item:
+                st.markdown("**Model answer for comparison**")
+                if item.correct_options:
+                    st.text("Correct: " + "; ".join(item.correct_options))
+                st.text(item.model_answer)
 
     c1, c2 = st.columns(2)
     c1.download_button("Download results report (PDF)", pdf_exporter.export_results(exam, result),
@@ -78,7 +96,11 @@ def render() -> None:
                        use_container_width=True)
     if c2.button("Retake exam", use_container_width=True):
         st.session_state.update(result=None, exam_started_at=None)
-        ui.goto("Student Panel")
+        ui.goto("exam")
+
+    with st.expander("Coming soon: progress analytics and adaptive difficulty"):
+        st.info("Track your scores over time, compare topics, and get papers that adapt to your level. "
+                "Available after full platform integration.", icon="🚧")
 
     with st.expander("Attempt record (JSON sent to the platform in production)"):
         st.json(result.model_dump(mode="json"), expanded=False)

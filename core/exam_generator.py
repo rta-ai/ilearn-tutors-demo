@@ -151,6 +151,7 @@ def _generate_once(spec, config, plan, chunks, aliases, topics, llm, feedback, r
             number=p.number, section=p.section, question_type=QuestionType(p.qtype), marks=p.marks,
             assessment_objective=p.ao, question_text=d.question_text, options=d.options,
             focus_topic=d.focus_topic, chunk_ids=aliases.resolve(d.chunk_ids),
+            suggested_minutes=exam_specs.SUGGESTED_MINUTES.get(p.number, 0) if spec.questions else 0,
         ))
 
     sources = [
