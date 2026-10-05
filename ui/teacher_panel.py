@@ -12,7 +12,7 @@ import streamlit as st
 
 from config import exam_specs, settings
 from config.llm import LLMProvider
-from core import exam_store, syllabus
+from core import exam_store, pool, syllabus
 from core.document_processor import process_pdf
 from core.exam_generator import generate_exam
 from core.mark_scheme import generate_mark_scheme
@@ -183,19 +183,32 @@ def _review_section(store: VectorStore, llm: LLMProvider) -> None:
 
     st.divider()
     st.subheader(f"Approved paper bank ({len(approved)})")
-    st.caption("Students are served papers from here only.")
+    st.caption("Students are served papers from here only. Pin one paper to give it to every student of that format; "
+               "otherwise students get a random approved paper.")
     for r in approved:
-        c1, c2 = st.columns([6, 1])
-        c1.markdown(f"**{_label(r.exam)}**  \nApproved {r.exam.reviewed_at[:16].replace('T', ' ')} UTC")
-        if c2.button("Withdraw", key=f"wd_{r.exam.exam_id}"):
+        pinned = exam_store.is_pinned(r.exam)
+        c1, c2, c3 = st.columns([6, 1.2, 1.2])
+        c1.markdown(f"{'📌 ' if pinned else ''}**{_label(r.exam)}**  \n"
+                    f"Approved {r.exam.reviewed_at[:16].replace('T', ' ')} UTC")
+        if c2.button("Unpin" if pinned else "Pin", key=f"pin_{r.exam.exam_id}"):
+            exam_store.set_pin(r.exam, not pinned)
+            st.rerun()
+        if c3.button("Withdraw", key=f"wd_{r.exam.exam_id}"):
             exam_store.set_status(r.exam.exam_id, "draft", note="Withdrawn from bank")
             st.rerun()
 
+    st.divider()
+    if st.button("Save review decisions to the demo pool",
+                 help="Writes approvals, pins and the syllabus into demo_pool/ so they survive a restart. "
+                      "Commit the demo_pool folder to keep them."):
+        st.success(f"Saved {pool.export()} paper(s) to demo_pool/. Commit the folder to keep them on deployment.")
+
 
 def _label(exam: Exam) -> str:
-    origin = " [student-requested]" if exam.origin == "student_on_demand" else ""
+    origin = {"student_on_demand": " [student-requested]", "authored": " [authored]"}.get(exam.origin, "")
+    name = exam.exam_id.removeprefix("pool-") if exam.origin == "authored" else exam.created_at[5:16].replace("T", " ")
     return (f"{exam.title} · {exam.config.section or str(exam.config.num_questions) + ' questions'} · "
-            f"{exam.config.difficulty} · {exam.total_marks} marks · {exam.created_at[5:16].replace('T', ' ')}{origin}")
+            f"{exam.config.difficulty} · {exam.total_marks} marks · {name}{origin}")
 
 
 def _review_draft(rec, store: VectorStore, llm: LLMProvider) -> None:
@@ -216,7 +229,11 @@ def _review_draft(rec, store: VectorStore, llm: LLMProvider) -> None:
         if scheme:
             ui.render_mark_scheme(exam, scheme)
     with t_ctx:
-        st.caption("Reference passages the AI saw. The paper's own texts are original and must not copy these.")
+        if exam.origin == "authored":
+            st.caption("This paper was written offline by Claude (not generated live) and checked against the "
+                       "reference library for originality. No reference text is stored with it.")
+        else:
+            st.caption("Reference passages the AI saw. The paper's own texts are original and must not copy these.")
         st.markdown("**Approved syllabus topics:** " + ", ".join(exam.syllabus_topics))
         for c in exam.context_chunks:
             with st.expander(f"{c.source} · page {c.page}"):

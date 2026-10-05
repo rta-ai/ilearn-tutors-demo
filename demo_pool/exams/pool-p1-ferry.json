@@ -1,0 +1,394 @@
+{
+  "exam": {
+    "exam_id": "pool-p1-ferry",
+    "created_at": "2026-10-05T03:03:23+00:00",
+    "config": {
+      "subject": "English Language",
+      "paper_key": "gcse_eng_p1",
+      "section": "Full paper",
+      "num_questions": 0,
+      "difficulty": "Higher",
+      "include_mark_scheme": true,
+      "doc_ids": []
+    },
+    "title": "English Language: Paper 1: Explorations in Creative Reading and Writing",
+    "paper_title": "Paper 1: Explorations in Creative Reading and Writing",
+    "duration_minutes": 105,
+    "total_marks": 80,
+    "instructions": [
+      "Answer all questions.",
+      "You must answer the questions in the spaces provided.",
+      "Do not write on blank pages.",
+      "The marks for questions are shown in brackets.",
+      "The maximum mark for this paper is 80.",
+      "You are advised to spend about 15 minutes reading through the source and all five questions before you begin your answers.",
+      "You are reminded of the need for good English and clear presentation in your answers."
+    ],
+    "sources": [
+      {
+        "label": "Source A",
+        "title": "The Last Ferry",
+        "lines": [
+          "By six o'clock the estuary had turned the colour of pewter, flat and",
+          "faintly shining, and the mudbanks steamed in the last of the light.",
+          "Ilse stood at the end of the jetty with her rucksack at her feet.",
+          "Behind her, the village was already closing itself up: a shutter dropped,",
+          "a dog protested once and gave up, a single window glowed orange.",
+          "The wind had dropped. Even the reeds along the shore, which usually",
+          "hissed and whispered all evening, hung perfectly still, as though listening.",
+          "Out on the water a heron stood on one leg, grey and",
+          "patient, a small stern figure carved from the dusk. It watched her",
+          "and she watched it, and neither of them moved for a long time.",
+          "The timetable nailed to the post had been rained on so often",
+          "that the numbers had run together into a blue bruise. Ilse did not",
+          "need to read it. The last ferry crossed at half past six, and",
+          "it had never once been late in all the years she had known it.",
+          "Across the estuary the far bank was a low smudge of lights, thin",
+          "as stitching along a hem. Somewhere beyond it was the city, and the",
+          "station, and the train her mother had promised would be waiting.",
+          "A bell began to clank, far out, uneven and hollow.",
+          "Ilse's stomach tightened. She picked up the rucksack and held it against her",
+          "chest, feeling the sharp corner of the biscuit tin press through the canvas.",
+          "She had not told anyone in the village she was leaving. She had",
+          "not even told Gran, who at this moment would be setting out",
+          "two cups beside the stove, as she did every evening, and wondering aloud",
+          "where the girl had got to. The thought was a splinter. Ilse refused to look at it.",
+          "The ferry came out of the haze slowly, a black shape with a",
+          "lantern swinging at its bow. Its engine coughed, caught, coughed again. When it",
+          "bumped against the jetty the whole structure shuddered, and Ilse felt the shudder travel",
+          "up through the soles of her boots and settle somewhere under her ribs.",
+          "Mr Garrow did not smile. He never did. He lifted the chain,",
+          "looked at her rucksack, then at her face, and let the silence stretch",
+          "until it was almost unbearable. 'Booked?' he said at last.",
+          "'No,' said Ilse. Her voice sounded smaller than she had meant it to.",
+          "He studied her for what felt like a minute. The lantern hissed.",
+          "Then, without a word, he reached into his coat and pulled out",
+          "a folded square of paper, soft with handling, and held it out to her.",
+          "Her name was written across the front in her mother's looping hand.",
+          "Ilse took it. Her fingers, she noticed, were shaking. Behind her the village",
+          "clock began to strike the half-hour, and she realised, with a lurch, that",
+          "she had not decided whether to step aboard or to turn around."
+        ],
+        "chunk_ids": [],
+        "citation": "Original practice text written for this paper",
+        "original": true
+      }
+    ],
+    "questions": [
+      {
+        "number": 1,
+        "section": "Section A: Reading",
+        "question_type": "short_answer",
+        "marks": 4,
+        "assessment_objective": "AO1",
+        "question_text": "Read again lines 1 to 10 of the source.\nList four things from this part of the source about the estuary and the evening at the jetty.",
+        "options": [],
+        "focus_topic": "Retrieving explicit and implicit information",
+        "chunk_ids": [],
+        "grounding_score": 0.56,
+        "suggested_minutes": 5
+      },
+      {
+        "number": 2,
+        "section": "Section A: Reading",
+        "question_type": "extended",
+        "marks": 8,
+        "assessment_objective": "AO2",
+        "question_text": "Look in detail at lines 18 to 28 of the source.\nHow does the writer use language here to create a sense of tension as the ferry approaches?\nYou could include the writer's choice of:\nwords and phrases\nlanguage features and techniques\nsentence forms.",
+        "options": [],
+        "focus_topic": "Language analysis and terminology",
+        "chunk_ids": [],
+        "grounding_score": 0.11,
+        "suggested_minutes": 10
+      },
+      {
+        "number": 3,
+        "section": "Section A: Reading",
+        "question_type": "extended",
+        "marks": 8,
+        "assessment_objective": "AO2",
+        "question_text": "You now need to think about the whole of the source.\nThis text is from the opening of a story.\nHow has the writer structured the text to interest you as a reader?\nYou could write about:\nwhat the writer focuses your attention on at the beginning\nhow and why the writer changes this focus as the source develops\nany other structural features that interest you.",
+        "options": [],
+        "focus_topic": "Structure and perspective",
+        "chunk_ids": [],
+        "grounding_score": 0.1,
+        "suggested_minutes": 15
+      },
+      {
+        "number": 4,
+        "section": "Section A: Reading",
+        "question_type": "extended",
+        "marks": 20,
+        "assessment_objective": "AO4",
+        "question_text": "Focus this part of your answer on the second part of the source, from line 25 to the end.\nA student, having read this section of the text, said: 'The writer presents Ilse as a frightened girl who is not in control of what happens to her.'\nTo what extent do you agree?\nIn your response, you could:\nwrite about your own impressions of Ilse\nevaluate how the writer has created these impressions\nsupport your opinions with references to the text.",
+        "options": [],
+        "focus_topic": "Critical evaluation of texts",
+        "chunk_ids": [],
+        "grounding_score": 0.2,
+        "suggested_minutes": 20
+      },
+      {
+        "number": 5,
+        "section": "Section B: Writing",
+        "question_type": "extended",
+        "marks": 40,
+        "assessment_objective": "AO5 (24 marks), AO6 (16 marks)",
+        "question_text": "You are advised to spend about 45 minutes on this section.\nWrite in full sentences.\nYou are reminded of the need to plan your answer.\nYou should leave enough time to check your work at the end.\n\nEITHER\nWrite a description suggested by this scene: a small fishing harbour at dawn, with boats leaning on the mud, nets heaped along the quayside and a lone figure sweeping the steps.\n\nOR\nWrite the opening part of a story about someone who must make a difficult decision at the end of a journey.\n\n(24 marks for content and organisation\n16 marks for technical accuracy)\n[40 marks]",
+        "options": [],
+        "focus_topic": "Descriptive and narrative writing",
+        "chunk_ids": [],
+        "grounding_score": 0.14,
+        "suggested_minutes": 45
+      }
+    ],
+    "context_chunks": [],
+    "validation_warnings": [],
+    "prompt_version": "authored-2026-10-05",
+    "model": "authored-by-claude",
+    "status": "draft",
+    "origin": "authored",
+    "syllabus_topics": [
+      "Retrieving explicit and implicit information",
+      "Language analysis and terminology",
+      "Structure and perspective",
+      "Critical evaluation of texts",
+      "Summarising and comparing sources",
+      "Comparing writers' viewpoints and methods",
+      "Descriptive and narrative writing",
+      "Writing to present a viewpoint"
+    ],
+    "originality_ok": true,
+    "flagged_questions": [],
+    "reviewer_note": "",
+    "reviewed_at": ""
+  },
+  "mark_scheme": {
+    "exam_id": "pool-p1-ferry",
+    "items": [
+      {
+        "number": 1,
+        "correct_options": [],
+        "model_answer": "Any four of: the estuary has turned the colour of pewter / is flat and faintly shining; the mudbanks are steaming in the last of the light; Ilse is standing at the end of the jetty with her rucksack at her feet; the village is closing up (a shutter drops, a dog gives up barking, one window glows orange); the wind has dropped and the reeds are perfectly still; a heron is standing on one leg on the water, watching Ilse.",
+        "acceptable_answers": [
+          "The estuary is the colour of pewter",
+          "The estuary is flat and faintly shining",
+          "The mudbanks are steaming",
+          "Ilse stands at the end of the jetty with a rucksack",
+          "The village is closing up for the night",
+          "A single window glows orange",
+          "The wind has dropped",
+          "The reeds are still, as though listening",
+          "A heron stands on one leg and watches Ilse"
+        ],
+        "marking_criteria": [
+          {
+            "level": "Full marks",
+            "marks": "4",
+            "descriptor": "Four accurate points, each taken from the lines named in the question and about the focus given."
+          },
+          {
+            "level": "Partial",
+            "marks": "1-3",
+            "descriptor": "One mark for each accurate point. Quotation or paraphrase is acceptable."
+          },
+          {
+            "level": "No credit",
+            "marks": "0",
+            "descriptor": "Points from outside the lines named, points about a different focus, or inaccurate statements."
+          }
+        ],
+        "examiner_notes": "Credit only points from lines 1 to 10. Do not credit the timetable (line 11 onwards) or the ferry. Candidates may quote or paraphrase; do not credit two quotations that make the same point.",
+        "marks": 4,
+        "assessment_objective": "AO1"
+      },
+      {
+        "number": 2,
+        "correct_options": [],
+        "model_answer": "The writer builds tension by making the approach of the ferry feel uncertain and slightly threatening. The bell is described as 'uneven and hollow', and the adjective 'hollow' suggests emptiness and unease, while the irregular rhythm of 'uneven' mirrors Ilse's unsteady nerves before the ferry has even appeared. Ilse's anxiety is then shown physically: 'Ilse's stomach tightened'. The short, plain sentence and the sudden verb make her fear immediate for the reader. The writer also uses a metaphor, 'The thought was a splinter', to suggest that her guilt about Gran is small but sharp and cannot be removed, and the blunt command 'Ilse refused to look at it' shows her forcing the feeling away. When the ferry arrives it is 'a black shape' emerging from 'the haze', which makes it seem more like a presence than a boat, and the listing of verbs in 'coughed, caught, coughed again' suggests an engine that might fail at any moment, keeping the reader in suspense. Finally the shudder that travels 'up through the soles of her boots and settle[s] somewhere under her ribs' uses a long, flowing sentence to trace the fear moving through her body until it lodges near her heart.",
+        "acceptable_answers": [
+          "'uneven and hollow': adjectives creating unease; the irregular bell mirrors her nerves",
+          "'stomach tightened': a physical sign of fear in a short, plain sentence",
+          "'The thought was a splinter': metaphor for a small, sharp, painful guilt",
+          "'a black shape' / 'out of the haze': mystery and menace; the ferry is anonymous",
+          "'coughed, caught, coughed again': listing and repetition create uncertainty; personification of the engine",
+          "The long sentence tracing the shudder 'up through the soles of her boots' to her ribs: the fear moves through her body",
+          "Sentence forms: short sentences for sudden fear, longer sentences for the slow approach"
+        ],
+        "marking_criteria": [
+          {
+            "level": "Level 4",
+            "marks": "7-8",
+            "descriptor": "Perceptive, detailed analysis of the writer's methods. Precise subject terminology, well-chosen quotations, and an exploration of effects on the reader."
+          },
+          {
+            "level": "Level 3",
+            "marks": "5-6",
+            "descriptor": "Clear, consistent explanation of the writer's methods. Relevant terminology and quotations with some comment on effect."
+          },
+          {
+            "level": "Level 2",
+            "marks": "3-4",
+            "descriptor": "Some understanding. Methods are identified and quotations are used, but explanation of effect is partial or uneven."
+          },
+          {
+            "level": "Level 1",
+            "marks": "1-2",
+            "descriptor": "Simple awareness of the writer's choices. Little or no terminology and limited use of the text."
+          },
+          {
+            "level": "Level 0",
+            "marks": "0",
+            "descriptor": "Nothing worthy of credit."
+          }
+        ],
+        "examiner_notes": "Reward comment on the effect on the reader, not just feature-spotting. Do not credit comment on structure or on lines outside 18 to 28. A technique named but not exemplified from the text cannot reach Level 3.",
+        "marks": 8,
+        "assessment_objective": "AO2"
+      },
+      {
+        "number": 3,
+        "correct_options": [],
+        "model_answer": "The writer opens with a wide, almost cinematic view of the estuary, the village and the heron. This slow, atmospheric beginning creates a hushed mood and makes the reader feel the stillness of the evening before anything happens. The focus then narrows to Ilse herself and to the timetable, which gives the first hint that she is waiting for something important. In the middle of the source the perspective moves from the outer world to Ilse's inner life: the far bank 'thin as stitching along a hem' leads to the mention of her mother, and then to the revelation that she has told no one she is leaving, not even Gran. This shift from description to secret makes the reader curious and a little sympathetic. The bell is a turning point, because it interrupts the stillness and the pace quickens as the ferry arrives. The final section is dialogue and action, in short exchanges, which contrast with the long descriptive sentences earlier and make the confrontation with Mr Garrow tense. The text ends on an unresolved decision, 'whether to step aboard or to turn around', and with the village clock striking, which leaves the reader desperate to know what she chooses.",
+        "acceptable_answers": [
+          "Opens with wide-angle description of setting, then narrows to Ilse",
+          "Shift from outer description to Ilse's inner thoughts and secret (lines 15 to 24)",
+          "The bell as a turning point that speeds up the pace",
+          "Contrast between long descriptive sentences and short dialogue at the end",
+          "Mystery created by withholding the note's contents and her mother's role",
+          "Ending on an unresolved decision as a cliffhanger; the village clock adds time pressure",
+          "Cyclical or contrasting use of stillness at the start and shuddering movement at the end"
+        ],
+        "marking_criteria": [
+          {
+            "level": "Level 4",
+            "marks": "7-8",
+            "descriptor": "Perceptive, detailed analysis of the writer's methods. Precise subject terminology, well-chosen quotations, and an exploration of effects on the reader."
+          },
+          {
+            "level": "Level 3",
+            "marks": "5-6",
+            "descriptor": "Clear, consistent explanation of the writer's methods. Relevant terminology and quotations with some comment on effect."
+          },
+          {
+            "level": "Level 2",
+            "marks": "3-4",
+            "descriptor": "Some understanding. Methods are identified and quotations are used, but explanation of effect is partial or uneven."
+          },
+          {
+            "level": "Level 1",
+            "marks": "1-2",
+            "descriptor": "Simple awareness of the writer's choices. Little or no terminology and limited use of the text."
+          },
+          {
+            "level": "Level 0",
+            "marks": "0",
+            "descriptor": "Nothing worthy of credit."
+          }
+        ],
+        "examiner_notes": "This question is about structure: sequence, shifts of focus, pace, perspective and the ending. Do not credit analysis of individual words unless it is linked to structure.",
+        "marks": 8,
+        "assessment_objective": "AO2"
+      },
+      {
+        "number": 4,
+        "correct_options": [],
+        "model_answer": "I agree to a large extent that Ilse is presented as frightened, but I think the writer also shows that she is more in control than the student suggests. Her fear is clear from the physical details. The shudder travelling 'up through the soles of her boots' and settling 'under her ribs' shows how deeply the moment affects her, and later her voice 'sounded smaller than she had meant it to', which suggests that she is trying to appear braver than she feels. Her 'shaking' fingers at the end confirm it. The writer also makes Mr Garrow intimidating: he 'did not smile', he 'let the silence stretch', and the lantern 'hissed', so the reader senses that Ilse is outmatched. Furthermore, the note arriving in her mother's handwriting suggests that events are being arranged around her, so she is not wholly in control. However, I do not fully agree. It was Ilse who made the journey to the jetty alone, who faced Mr Garrow's silence, and who answered 'No' honestly when asked if she had booked. The final line is the strongest evidence: she 'had not decided whether to step aboard or to turn around', which shows that the choice is still hers. The writer therefore presents a frightened girl who is nevertheless at a moment of decision.",
+        "acceptable_answers": [
+          "Physical signs of fear: the shudder, small voice, shaking fingers",
+          "Mr Garrow's silence and manner make Ilse seem outmatched",
+          "The note in her mother's hand suggests others are shaping events",
+          "Counter-argument: Ilse chose to leave and to come to the jetty alone",
+          "The ending leaves the choice with her",
+          "Evaluation of the writer's methods: sensory detail, dialogue, the unresolved ending"
+        ],
+        "marking_criteria": [
+          {
+            "level": "Level 4",
+            "marks": "16-20",
+            "descriptor": "Perceptive, detailed evaluation. A convincing, critical response to the statement, with well-chosen quotations and a thorough exploration of how the writer creates the impressions."
+          },
+          {
+            "level": "Level 3",
+            "marks": "11-15",
+            "descriptor": "Clear, relevant evaluation. A consistent response to the statement, supported by appropriate quotations and comment on the writer's methods."
+          },
+          {
+            "level": "Level 2",
+            "marks": "6-10",
+            "descriptor": "Some evaluation. An attempt to respond to the statement, with some support from the text and limited comment on methods."
+          },
+          {
+            "level": "Level 1",
+            "marks": "1-5",
+            "descriptor": "Simple, limited opinion with little evidence from the text."
+          },
+          {
+            "level": "Level 0",
+            "marks": "0",
+            "descriptor": "Nothing worthy of credit."
+          }
+        ],
+        "examiner_notes": "Reward a personal, evaluative response with a clear line of argument. The focus is lines 25 to the end. A fully one-sided answer can reach Level 3 if well supported. Do not credit narrative retelling.",
+        "marks": 20,
+        "assessment_objective": "AO4"
+      },
+      {
+        "number": 5,
+        "correct_options": [],
+        "model_answer": "Plan (description): begin with sound or light, not the whole view; move from the horizon to the quayside to the lone figure (zoom in); keep to one time of day and develop two or three senses (cold, salt smell, the rasp of the broom); use a controlled shift near the end to something small and human; vary sentence lengths; end on an image that echoes the opening. Exemplar opening: 'Before the sun had properly risen, the harbour was a bowl of grey milk. The boats lay tilted on the mud like tired animals, their ropes drooping, and the only sound was the slow scrape of a broom on stone. A single figure moved along the steps in a coat the colour of the tide, sweeping the night away one stair at a time.'",
+        "acceptable_answers": [
+          "Clear control of one scene or one moment, with a sense of time and place",
+          "Deliberate structure: a shift of focus, zooming in or a turning point",
+          "Ambitious but controlled vocabulary and figurative language",
+          "Varied sentence structures with accurate punctuation, including for effect",
+          "For the narrative option: a strong opening hook and a believable character with a decision to make"
+        ],
+        "marking_criteria": [
+          {
+            "level": "Content and organisation, Level 4",
+            "marks": "19-24",
+            "descriptor": "Compelling, convincing writing with a clear purpose, ambitious vocabulary and a controlled, well-sequenced structure."
+          },
+          {
+            "level": "Content and organisation, Level 3",
+            "marks": "13-18",
+            "descriptor": "Consistent, clear writing that holds the reader's interest, with varied vocabulary and logical organisation."
+          },
+          {
+            "level": "Content and organisation, Level 2",
+            "marks": "7-12",
+            "descriptor": "Some success in engaging the reader, with some variety in vocabulary and a simple structure."
+          },
+          {
+            "level": "Content and organisation, Level 1",
+            "marks": "1-6",
+            "descriptor": "Limited, simple writing with basic vocabulary and weak organisation."
+          },
+          {
+            "level": "Technical accuracy, Level 4",
+            "marks": "13-16",
+            "descriptor": "Sentence structures are varied and controlled; spelling and punctuation are accurate, including ambitious vocabulary."
+          },
+          {
+            "level": "Technical accuracy, Level 3",
+            "marks": "9-12",
+            "descriptor": "Mostly secure sentence demarcation, with generally accurate spelling and punctuation."
+          },
+          {
+            "level": "Technical accuracy, Level 2",
+            "marks": "5-8",
+            "descriptor": "Some control of sentence structure, with some errors in spelling and punctuation."
+          },
+          {
+            "level": "Technical accuracy, Level 1",
+            "marks": "1-4",
+            "descriptor": "Limited control. Frequent errors in spelling, punctuation and grammar."
+          }
+        ],
+        "examiner_notes": "Mark content and organisation (24) and technical accuracy (16) separately. Reward writing that is purposeful and controlled rather than long. Do not penalise either choice of task.",
+        "marks": 40,
+        "assessment_objective": "AO5 (24 marks), AO6 (16 marks)"
+      }
+    ]
+  }
+}

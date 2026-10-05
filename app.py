@@ -14,6 +14,7 @@ st.set_page_config(page_title=settings.APP_TITLE, page_icon="📝", layout="wide
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
 
 from config.llm import LLMError, LLMProvider, get_llm  # noqa: E402
+from core import pool  # noqa: E402
 from core.vector_store import VectorStore  # noqa: E402
 from ui import accessibility  # noqa: E402
 from ui import components as ui  # noqa: E402
@@ -57,7 +58,14 @@ def _nav() -> None:
         st.divider()
 
 
+@st.cache_resource(show_spinner=False)
+def _seed_pool() -> int:
+    """Load the pre-authored demo papers into the runtime store (once per server start, no API calls)."""
+    return pool.seed()
+
+
 def main() -> None:
+    _seed_pool()
     ui.inject_css()
     accessibility.init()
     for key in ("exam", "mark_scheme", "result", "exam_started_at", "role"):

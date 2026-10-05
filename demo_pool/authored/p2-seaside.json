@@ -1,0 +1,181 @@
+{
+  "slug": "p2-seaside",
+  "paper_key": "gcse_eng_p2",
+  "difficulty": "Higher",
+  "instructions": [
+    "Answer all questions.",
+    "You must answer the questions in the spaces provided.",
+    "Do not write on blank pages.",
+    "The marks for questions are shown in brackets.",
+    "The maximum mark for this paper is 80.",
+    "You are advised to spend about 15 minutes reading through the sources and all five questions before you begin your answers.",
+    "You are reminded of the need for good English and clear presentation in your answers."
+  ],
+  "sources": [
+    {
+      "label": "Source A",
+      "title": "Brightwater, bank holiday (a 21st century travel blog)",
+      "lines": [
+        "Let me say at once that I love the seaside. I love it",
+        "the way you love an uncle who tells the same story at every",
+        "wedding: fondly, loyally and from a safe distance. So when the long",
+        "weekend arrived I packed the car, the sun cream and some unrealistic expectations",
+        "and headed for Brightwater, along with, by my estimate, the entire",
+        "population of the Midlands.",
+        "The journey, which the satnav promised would take ninety minutes, took four hours.",
+        "We crawled the last mile in a procession of overheated hatchbacks, each one",
+        "carrying a family in the early stages of a quarrel. By the time",
+        "we found a space, three streets from the beach and priced like a",
+        "small mortgage, the children had stopped asking 'Are we nearly there?' and begun",
+        "asking, in hushed voices, whether we could go home.",
+        "The beach itself was magnificent, if you could see it. Towels were laid",
+        "edge to edge like tiles; windbreaks sprouted in every gap; a man in",
+        "a deckchair played music from a speaker the size of a toaster,",
+        "apparently believing we would all enjoy his taste. I found a patch of",
+        "sand approximately the dimensions of a doormat and claimed it as mine.",
+        "Lunch was fish and chips, eaten standing up. The queue was forty minutes",
+        "long and the seagulls, who had clearly studied the layout, swooped with the",
+        "precision of a military operation. One took my sausage clean out of my hand",
+        "and ate it on the roof opposite, watching me with what I can only",
+        "describe as satisfaction.",
+        "The arcade was a roar of coloured lights and electronic jingles in which I",
+        "lost eleven pounds and the will to live. The pier, once the pride",
+        "of the town, now sells phone chargers and sunglasses, and has a sign",
+        "apologising for the lack of a pier. The waves, I am told, were",
+        "lovely. I could not hear them.",
+        "And yet. Around six o'clock the crowds drained away like a tide of",
+        "their own. The sky turned the colour of apricots. My youngest, who had",
+        "complained for nine hours, went quiet, took off her shoes and walked straight",
+        "into the sea, fully dressed, with an expression of pure astonishment.",
+        "I did not stop her. I stood on the cooling sand with a",
+        "soggy bag of chips and thought: all right. One star. Would return."
+      ]
+    },
+    {
+      "label": "Source B",
+      "title": "From the diary of a seventeen-year-old girl, 1868 (a 19th century diary)",
+      "lines": [
+        "Thursday, 6th August. At last! After a journey of six hours",
+        "in a carriage so crowded that Papa declared we were packed like",
+        "herrings, I have seen the sea. I confess I wept, and was not",
+        "ashamed; for nothing in the whole of my seventeen years has prepared me",
+        "for it. It lies before one like a great grey-green silk, endlessly",
+        "stirred, and the sound it makes is that of a thousand breaths",
+        "drawn at once. Mamma, who had not spoken since Lancaster, pressed my hand",
+        "and said only, 'Well, Nelly. There it is.'",
+        "Friday. This morning I was taken to the bathing machine, a",
+        "curious little hut upon wheels, painted blue and smelling of tar, which a patient",
+        "horse drew down into the very surf. A stout woman in a",
+        "flannel gown, named Mrs Pegg, attended me and, with a cheerful disregard for my",
+        "protests, conducted me down the steps and into the waves. The cold",
+        "took my breath away entirely. I shrieked; Mrs Pegg laughed; and the sea, which",
+        "I had thought so solemn, tossed me about like a cork and",
+        "seemed to laugh also. I have never felt so alive. When I",
+        "emerged, trembling and triumphant, I would gladly have gone in again.",
+        "Saturday. The promenade is crowded, but with such agreeable company! Ladies in the",
+        "newest bonnets parade beneath parasols; children trundle hoops; a band plays upon a",
+        "little painted stand, and between the tunes one hears the gulls, who cry",
+        "as though they too had come for a holiday. A man with",
+        "a barrow sold me a cone of shrimps, which I ate walking, a",
+        "liberty I should never dare at home. Papa pretended not to see.",
+        "Sunday. We attended church in a small grey building so close to the",
+        "water that the preacher's voice was quite lost in the roar of",
+        "the tide. Nobody minded. Indeed I thought it the finest sermon I ever",
+        "heard. Afterward we walked to the end of the pier, a great",
+        "iron gallery on legs, and watched the sun go down in a",
+        "blaze of orange and rose that set the whole sea on fire.",
+        "I scarcely know how to set down what I felt. It seemed",
+        "to me that I had been shut in a small room all my",
+        "life and some kind hand had opened the door. We return on Thursday.",
+        "I shall count every hour until then, and mourn each one that passes."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "topic": "Retrieving explicit and implicit information",
+      "text": "Read again the first part of Source A, from line 1 to line 17.\nChoose four statements below which are TRUE.",
+      "options": [
+        "The writer compares the seaside to a relative who repeats the same story.",
+        "The writer travelled to Brightwater by train.",
+        "The journey took four hours instead of the ninety minutes the satnav predicted.",
+        "The writer found a parking space right next to the beach.",
+        "The children began asking in hushed voices whether they could go home.",
+        "The beach was almost empty when the writer arrived.",
+        "A man in a deckchair played music from a very large speaker.",
+        "The writer found a patch of sand roughly the size of a doormat."
+      ],
+      "correct_options": [
+        "The writer compares the seaside to a relative who repeats the same story.",
+        "The journey took four hours instead of the ninety minutes the satnav predicted.",
+        "The children began asking in hushed voices whether they could go home.",
+        "The writer found a patch of sand roughly the size of a doormat."
+      ],
+      "model_answer": "The four true statements are: the seaside is compared to an uncle who tells the same story at every wedding (lines 1 to 3); the journey took four hours instead of ninety minutes (line 7); the children began asking in hushed voices to go home (lines 11 to 12); the writer found a patch of sand about the size of a doormat (lines 16 to 17).",
+      "acceptable": [],
+      "notes": "One mark for each true statement chosen, to a maximum of four. False statements: the writer travelled by train (the writer 'packed the car', line 4); the parking space was three streets from the beach (lines 10 to 11); the beach was crowded, with towels laid edge to edge (lines 13 to 14); the music came from a speaker 'the size of a toaster' (line 15), so it was small, not very large."
+    },
+    {
+      "number": 2,
+      "topic": "Summarising and comparing sources",
+      "text": "You need to refer to Source A and Source B for this question.\nWrite a summary of the differences between the writers' experiences of the seaside in the two sources.",
+      "model_answer": "The experiences differ in feeling, in the journey and in what the writers enjoy. In Source A the writer is irritated for most of the day, whereas in Source B the girl is delighted from the beginning. The modern writer endures a four-hour journey, expensive parking and a crowded beach, so the trip seems stressful, and the sarcastic remark about the 'unrealistic expectations' suggests disappointment. In contrast, the Victorian girl also has a difficult journey, 'packed like herrings', but she is so overwhelmed on seeing the sea that she weeps without shame, implying that the experience is more important to her than any discomfort. Secondly, the activities differ. The modern writer eats fish and chips standing up, loses money in the arcade and has a sausage stolen by a seagull, which suggests that the seaside is now commercial and chaotic. On the other hand, the Victorian girl bathes in the sea from a bathing machine, enjoys the promenade and the band, and watches the sunset from the pier, which suggests a more wholesome and genteel pleasure. Finally, the final feelings are different: Source A ends with a grudging 'One star. Would return', suggesting mixed feelings, whereas Source B ends with the girl wanting to 'count every hour' until she can come back, which shows pure delight.",
+      "acceptable": [
+        "A: stressful journey of four hours; B: crowded carriage but the sea overwhelms her",
+        "A: crowded beach, noise and queues; B: a pleasant, agreeable promenade with a band",
+        "A: commercial attractions (arcade, pier selling chargers); B: bathing machine, shrimps, church by the sea",
+        "A: irritation, sarcasm and mixed feelings at the end; B: joy and a wish to stay longer",
+        "A: a seagull steals food; B: the gulls seem to be on holiday too",
+        "Inference: the modern seaside is crowded and commercial; the Victorian seaside is a novelty and a freedom"
+      ],
+      "notes": "This question tests AO1 only: differences between the sources, with inference. Do not credit comment on language techniques. Responses must refer to both sources."
+    },
+    {
+      "number": 3,
+      "topic": "Language analysis and terminology",
+      "text": "You now need to refer only to Source B, the diary of a seventeen-year-old girl, lines 9 to 17.\nHow does the writer use language to convey her excitement about bathing in the sea?",
+      "model_answer": "The writer uses language to show that the experience is both frightening and thrilling. The description of the bathing machine as 'a curious little hut upon wheels, painted blue and smelling of tar' uses sensory detail and the adjective 'curious' to show her fascination with something new. The cold 'took my breath away entirely' is a metaphor that makes the sensation physical and sudden, and the adverb 'entirely' emphasises how complete the shock is. She then reports three short actions in quick succession, 'I shrieked; Mrs Pegg laughed; and the sea...', and the semi-colons give a breathless, energetic rhythm that mirrors her excitement. The simile 'tossed me about like a cork' presents her as light and playful in the waves, while the personification of the sea, which 'seemed to laugh also', makes the water feel friendly and shares her joy. The sea is first called 'solemn', and the contrast with 'laugh' shows how her expectations have been overturned. Finally the abrupt statement 'I have never felt so alive' is a short, emphatic sentence that conveys her happiness directly, and 'trembling and triumphant' uses alliteration to show a mixture of fear and pride, so that the reader shares her thrill.",
+      "acceptable": [
+        "Sensory detail and adjectives in 'curious little hut... smelling of tar'",
+        "Metaphor: 'took my breath away entirely'",
+        "Sequence of short clauses and semi-colons: 'I shrieked; Mrs Pegg laughed; and the sea...'",
+        "Simile: 'tossed me about like a cork'",
+        "Personification of the sea: it 'seemed to laugh also'; contrast with 'solemn'",
+        "Short emphatic statement: 'I have never felt so alive'",
+        "Alliteration: 'trembling and triumphant'"
+      ],
+      "notes": "Reward comment on how language conveys excitement, with terminology and supported by quotation. Do not credit comment on lines outside 9 to 17, and do not credit structural comment alone."
+    },
+    {
+      "number": 4,
+      "topic": "Comparing writers' viewpoints and methods",
+      "text": "For this question, you need to refer to the whole of Source A together with the whole of Source B.\nCompare how the two writers convey their different attitudes to a holiday at the seaside.\nIn your answer, you could:\ncompare their different attitudes\ncompare the methods they use to convey their attitudes\nsupport your ideas with references to both texts.",
+      "model_answer": "The two writers have different attitudes: the blogger is wryly disappointed but secretly won over, while the diarist is simply enchanted. In Source A the attitude is ironic. The writer claims to 'love the seaside' but only 'from a safe distance', and uses exaggeration, such as 'the entire population of the Midlands' and 'priced like a small mortgage', to mock the crowds and the cost. By contrast, the Victorian girl's attitude is wonder: she 'wept, and was not ashamed' and felt that 'some kind hand had opened the door'. The methods differ too. The modern writer uses humour, similes and a conversational tone, and ends with the ironic verdict 'One star. Would return', which hides real affection behind a joke. The diarist, on the other hand, uses a series of days, each introduced by 'Friday', 'Saturday', 'Sunday', and exclamations such as 'At last!' to create excitement, together with personification of the sea and metaphors such as 'silk, endlessly stirred' to show awe. Both writers use a change near the end to show the true feeling: in Source A the child's walk into the sea at sunset suggests that the day was worthwhile after all, and in Source B the sunset 'set the whole sea on fire', a metaphor of sheer delight. Both therefore reach a moment of beauty, but the modern writer must wait until the crowds have gone, while the diarist finds it throughout.",
+      "acceptable": [
+        "A: ironic, humorous, disappointed but secretly fond; B: sincere wonder and delight",
+        "A: exaggeration and comic similes about crowds, cost and seagulls; B: exclamations, personification and metaphors of awe",
+        "A: conversational first-person tone and an ironic final verdict; B: diary structure with a day-by-day sequence",
+        "Both writers use sunset as a moment when the true feeling emerges",
+        "A: modern commercial seaside; B: the seaside as a new freedom for a young Victorian woman",
+        "Both use sensory detail and a personal viewpoint"
+      ],
+      "notes": "Reward a sustained comparison that links attitudes to methods. Both sources must be used. Do not credit separate summaries of each text that make no comparison above Level 2."
+    },
+    {
+      "number": 5,
+      "topic": "Writing to present a viewpoint",
+      "text": "You are advised to spend about 45 minutes on this section.\nWrite in full sentences.\nYou are reminded of the need to plan your answer.\nYou should leave enough time to check your work at the end.\n\n'The traditional British seaside holiday belongs in the past and should be left there.'\n\nWrite a letter to a local newspaper in which you explain your point of view on this statement.\n\n(24 marks for content and organisation\n16 marks for technical accuracy)\n[40 marks]",
+      "model_answer": "Plan: (1) Dear Editor, then a one-sentence statement of your view; (2) a first paragraph with your strongest reason and a specific example; (3) a second paragraph with a different kind of reason (cost, environment, memories, community); (4) acknowledge the opposing view and answer it; (5) a closing call to action and a formal sign-off. Techniques: rhetorical question, a list of three, a short sentence for emphasis, a personal anecdote. Exemplar opening: 'Dear Editor, I read with surprise the suggestion that the British seaside should be left to history. Anyone who has stood on a cold pier with a paper bag of chips knows that some things are too precious to retire. I write to argue that our seaside towns are not relics but lifelines.'",
+      "acceptable": [
+        "A clear viewpoint sustained throughout",
+        "Appropriate form and register for a letter to a local newspaper",
+        "Developed paragraphs with ideas, examples and explanation",
+        "A counter-argument that is acknowledged and answered",
+        "Deliberate rhetorical techniques and varied sentence structures",
+        "Accurate spelling, punctuation and grammar, including for effect"
+      ],
+      "notes": "Mark content and organisation (24) and technical accuracy (16) separately. Reward a clear, personal viewpoint with purpose and audience in mind. Do not credit copying phrases from the sources."
+    }
+  ]
+}

@@ -43,6 +43,22 @@ TEACHER                                                    STUDENT
 | Unreviewed content reaching students | Students only get papers with status `approved`. (Optional demo switch: `ALLOW_STUDENT_ON_DEMAND=true` lets a student generate a labelled draft that is queued for review.) |
 | Bad line references or option lists | Validated after generation and shown to the reviewer as warnings. |
 
+## Demo pool: papers written offline, Gemini only for marking
+
+To protect the free Gemini quota, the demo papers are **authored offline** (by Claude, not generated live) and shipped in
+[demo_pool/](demo_pool/): two Paper 1 and two Paper 2 full papers with mark schemes, plus the syllabus topics.
+
+- `demo_pool/authored/*.json`: the human-readable papers (original texts, questions, model answers).
+- `python tools/build_pool.py`: builds and validates them offline (structure, marks, line references, syllabus topics, and an
+  originality check against the local reference library if present). Makes no API calls.
+- On start the app copies the pool into its runtime store. Papers arrive as **drafts**: a teacher reviews and approves them in
+  the Teacher Panel, can **Pin** one paper for all students (or let students get a random approved one), and **Withdraw**
+  any that do not meet the criteria.
+- "Save review decisions to the demo pool" writes approvals, pins and the syllabus back into `demo_pool/`. Commit the folder
+  so they survive a restart on Hugging Face.
+- Gemini is used only to mark student answers (1 call per attempt) and, if you choose to upload documents, for OCR and
+  embeddings. Teacher review, pin, withdraw and save make no API calls.
+
 ## What the demo shows
 
 The full platform structure is visible, but only **AQA GCSE English Language (Paper 1 and Paper 2, Full Exam mode)**

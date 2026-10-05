@@ -22,6 +22,7 @@ OCR_CACHE_DIR = DATA_DIR / "ocr_cache"
 EXAMS_DIR = DATA_DIR / "exams"
 SYLLABUS_DIR = DATA_DIR / "syllabus"
 ATTEMPTS_DIR = DATA_DIR / "attempts"
+PINS_FILE = DATA_DIR / "pins.json"
 ASSETS_DIR = BASE_DIR / "assets"
 LOGO_PATH = ASSETS_DIR / "logo.png"
 

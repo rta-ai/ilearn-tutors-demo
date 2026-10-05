@@ -1,0 +1,187 @@
+{
+  "slug": "p2-screens",
+  "paper_key": "gcse_eng_p2",
+  "difficulty": "Higher",
+  "instructions": [
+    "Answer all questions.",
+    "You must answer the questions in the spaces provided.",
+    "Do not write on blank pages.",
+    "The marks for questions are shown in brackets.",
+    "The maximum mark for this paper is 80.",
+    "You are advised to spend about 15 minutes reading through the sources and all five questions before you begin your answers.",
+    "You are reminded of the need for good English and clear presentation in your answers."
+  ],
+  "sources": [
+    {
+      "label": "Source A",
+      "title": "In defence of the controller (a 21st century newspaper article)",
+      "lines": [
+        "My son is fifteen, and every evening at seven o'clock he disappears.",
+        "He does not leave the house. He simply vanishes into the glow of",
+        "a screen, headset clamped to his ears, and for the next two hours",
+        "I am told, through the closed door, about 'strategy', 'raids' and 'the squad'.",
+        "For a long time I assumed the worst. Like most parents, I had",
+        "read the headlines: games rot the brain, steal sleep, breed aggression,",
+        "turn bright children into silent ones. I confiscated the console twice and",
+        "each time felt less like a guardian and more like a jailer.",
+        "Then one wet Saturday I made a decision that surprised us both.",
+        "I sat down and asked him to teach me. It took forty",
+        "minutes to learn which button made the character jump and a further",
+        "hour to stop falling off the edge of the map. What struck me was",
+        "not the graphics, spectacular though they were, but how my son talked.",
+        "He was patient. He explained, he encouraged, he laughed when I failed",
+        "without a trace of the sarcasm I get at the dinner table.",
+        "The game, I realised, was a language he spoke far better than I did.",
+        "Since then I have watched more carefully. The 'squad' turns out to be",
+        "five teenagers from three countries who plan their moves like generals, share",
+        "their mistakes without blame and, last month, spent a whole week helping one",
+        "of their number revise for an exam he was dreading. None of this",
+        "appeared in the headlines.",
+        "I am not naive. Screens can swallow whole evenings, and I still",
+        "insist on a limit at nine o'clock, a rule my son obeys with",
+        "theatrical groaning. Moderation matters in everything, from cake to cricket. But I have",
+        "come to believe that the real danger is not the controller in",
+        "his hands; it is our habit of fearing whatever the young enjoy",
+        "and we do not understand.",
+        "Every generation has its panic. My grandmother was told that the wireless",
+        "would ruin her ears; my father that television would ruin his eyes.",
+        "Each time, the young adapted, and each time the sky stayed put.",
+        "So tonight, when seven o'clock arrives and my son slips away behind the glow,",
+        "I shall not hover at the door. I shall make us both a hot",
+        "chocolate, leave his on the stairs, and listen to the muffled laughter",
+        "of five strangers who have become, in their odd way, a team.",
+        "It sounds, I must admit, rather like happiness."
+      ]
+    },
+    {
+      "label": "Source B",
+      "title": "A letter to the editor, 1867 (a 19th century letter)",
+      "lines": [
+        "To the Editor of the Hartlepool Courier.",
+        "Sir, I address you with a heavy heart upon a subject which",
+        "has, for some months, so weighed upon my mind that I can neither",
+        "sleep without disquiet nor preach without an eye upon the pews where",
+        "our young men sit. I refer to the pestilent literature of the",
+        "penny numbers, those lurid and ill-printed serials which are hawked at every",
+        "corner of our town and devoured, I am assured, by every errand-boy",
+        "and apprentice between the docks and the market cross.",
+        "It was my misfortune last Tuesday week to confiscate such a publication",
+        "from a lad of fourteen, a member of my own Sunday class, whose",
+        "conduct, hitherto exemplary, had of late deteriorated in a manner I could",
+        "not account for. The pamphlet was entitled 'The Bloody Hand of the",
+        "Black Ravine'. I will spare your readers its contents; suffice it to say that",
+        "within twelve pages I counted three murders, two abductions and a villain who",
+        "was, to the evident delight of the author, never brought to justice.",
+        "Is it any wonder that the boy has grown sullen at his bench",
+        "and sly at his prayers? The mind of youth is as wax, and",
+        "whatever is pressed upon it will harden into character. A lad who",
+        "feeds daily upon the exploits of cut-throats and highwaymen will, as surely as",
+        "the tide follows the moon, come to admire them. I have seen it",
+        "already; the children of this parish now play at robbers in the",
+        "churchyard, and the smallest of them, who ought to know better, lately",
+        "struck a playmate with a stone in the character of the villain.",
+        "I am told by those who defend this trade that it teaches",
+        "the poor to read. If reading be the end, I answer that",
+        "there are in this kingdom a thousand wholesome books, and the lad who",
+        "can spell out 'Black Ravine' might as well spell out the Gospels.",
+        "It is not the art of reading which is at fault, but the",
+        "use which is made of it; a knife may carve a loaf or",
+        "cut a throat.",
+        "I call, therefore, upon parents to examine their sons' pockets, upon masters to",
+        "forbid the trade within their workshops, and upon the magistrates to consider whether",
+        "the vendors of such poison ought not to be treated as the",
+        "vendors of any other. For my part I shall continue to",
+        "labour, as I have laboured these twenty years, to put good bread",
+        "into young hands. It is a poor thing to see them starve for it.",
+        "I remain, Sir, your obedient servant,",
+        "Josiah Pennington, Rector of St Hilda's."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "topic": "Retrieving explicit and implicit information",
+      "text": "Read again the first part of Source A, from line 1 to line 16.\nChoose four statements below which are TRUE.",
+      "options": [
+        "The writer's son disappears into a game at seven o'clock every evening.",
+        "The writer's son leaves the house each evening to meet his friends.",
+        "The writer took the console away from the son on two occasions.",
+        "The writer had never read any news stories about computer games.",
+        "The writer asked the son to teach them how to play.",
+        "The writer learned the controls in less than ten minutes.",
+        "The writer found the son patient when he explained the game.",
+        "The writer's son was sarcastic while he taught the game."
+      ],
+      "correct_options": [
+        "The writer's son disappears into a game at seven o'clock every evening.",
+        "The writer took the console away from the son on two occasions.",
+        "The writer asked the son to teach them how to play.",
+        "The writer found the son patient when he explained the game."
+      ],
+      "model_answer": "The four true statements are: the son disappears into a game at seven o'clock every evening (lines 1 to 3); the writer took the console away twice (line 7); the writer asked the son to teach them (lines 9 to 10); the son was patient when explaining (lines 13 to 14).",
+      "acceptable": [],
+      "notes": "One mark for each true statement chosen, to a maximum of four. False statements: he does not leave the house (line 2); the writer had read the headlines (lines 5 to 6); it took forty minutes to learn the button (lines 10 to 11); there was no sarcasm (line 15)."
+    },
+    {
+      "number": 2,
+      "topic": "Summarising and comparing sources",
+      "text": "You need to refer to Source A and Source B for this question.\nThe two sources describe the effects of new forms of entertainment on young people.\nWrite a summary of the differences between these effects in the two sources.",
+      "model_answer": "In Source A the effects on the son are mainly positive, whereas in Source B they are harmful. In Source A the teenager is patient and kind: he teaches the writer calmly and without sarcasm, which suggests that gaming has helped him to develop communication and generosity. In contrast, the boy in Source B has become 'sullen at his bench and sly at his prayers', so the entertainment has made him withdrawn and deceitful. Secondly, the games in Source A bring young people together: the 'squad' is a team of five teenagers who share their mistakes without blame and spent a week helping a friend to revise, which implies that online play builds loyalty and cooperation. On the other hand, in Source B the serials encourage violence: the children 'play at robbers' in the churchyard and one 'struck a playmate with a stone', which leads the reader to infer that the stories are making the young copy dangerous behaviour. Finally, the effect on the writer's relationship is different. In Source A the writer's attitude softens from fear to acceptance and decides to 'listen to the muffled laughter', whereas the Rector believes the boy's conduct has 'deteriorated' and wants to stop the trade.",
+      "acceptable": [
+        "A: the son is patient, encouraging and not sarcastic; B: the boy is sullen and sly",
+        "A: the 'squad' cooperates, shares mistakes and helps a friend revise; B: the children copy violence and one throws a stone",
+        "A: effects seem positive, leading to laughter and a sense of teamwork; B: the effects are described as corrupting character",
+        "A: the parent's fear changes to acceptance; B: the Rector calls for the trade to be banned",
+        "Inference: the games develop social skills in A; the serials damage behaviour in B"
+      ],
+      "notes": "This question tests AO1 only: differences between the sources, with inference. Do not credit comment on language techniques. Responses must refer to both sources."
+    },
+    {
+      "number": 3,
+      "topic": "Language analysis and terminology",
+      "text": "You now need to refer only to Source B, the letter by Josiah Pennington, lines 16 to 30.\nHow does the writer use language to convey his strong feelings about the penny serials?",
+      "model_answer": "Pennington uses language to convey his alarm and disapproval. He begins with a rhetorical question, 'Is it any wonder...?', which assumes that the reader will agree with him and presents his view as obvious. The adjectives 'sullen' and 'sly', joined by the repeated 's' sound, make the boy's behaviour seem unpleasant and sneaky, reinforcing the writer's condemnation. He then uses a metaphor, 'The mind of youth is as wax', to suggest that young people are soft and easily shaped, and that whatever 'is pressed upon it will harden into character', which makes the danger sound permanent. The simile 'as surely as the tide follows the moon' presents his prediction as a law of nature, so that the reader feels the outcome is inevitable. His examples are dramatic and emotive: 'cut-throats and highwaymen' is a list of violent figures that appeals to the reader's fear, and the image of the smallest child striking a playmate 'with a stone' shows the danger in a concrete way that is difficult to dismiss. Finally, the metaphor 'a knife may carve a loaf or cut a throat' uses the contrast between life-giving and deadly to argue that reading is not the problem, only what is read. The formal vocabulary and long sentences give his argument the authority of a clergyman.",
+      "acceptable": [
+        "Rhetorical question 'Is it any wonder...': invites the reader to agree",
+        "'sullen' and 'sly': alliteration and negative adjectives",
+        "Metaphor: 'The mind of youth is as wax' / 'harden into character'",
+        "Simile: 'as surely as the tide follows the moon': inevitability",
+        "Emotive listing: 'cut-throats and highwaymen'; the child throwing a stone",
+        "Metaphor: 'a knife may carve a loaf or cut a throat': contrast between good and harm",
+        "Formal, authoritative register; long balanced sentences"
+      ],
+      "notes": "Reward comment on how language conveys feelings, with terminology and supported by quotation. Do not credit comment on lines outside 16 to 30, and do not credit structural comment alone."
+    },
+    {
+      "number": 4,
+      "topic": "Comparing writers' viewpoints and methods",
+      "text": "For this question, you need to refer to the whole of Source A together with the whole of Source B.\nCompare how the two writers convey their different attitudes to new forms of entertainment for the young.\nIn your answer, you could:\ncompare their different attitudes\ncompare the methods they use to convey their attitudes\nsupport your ideas with references to both texts.",
+      "model_answer": "The two writers hold opposite attitudes. The writer of Source A is tolerant and finally approving of video games, while the Rector in Source B is fearful and condemns the penny serials. In Source A the attitude develops from suspicion to acceptance. The writer admits having 'assumed the worst' and confiscated the console, but after learning to play concludes that 'the real danger is not the controller' but 'our habit of fearing whatever the young enjoy'. In contrast, Pennington is certain from the start; he calls the serials 'pestilent literature' and 'poison', and wants parents, masters and magistrates to act. He is not interested in changing his mind. The methods are also different. The modern writer uses a personal, anecdotal tone, telling the story of one family and using humour such as 'theatrical groaning' and 'from cake to cricket' to seem balanced and likeable. The use of first person and the ending, 'It sounds... rather like happiness', invites the reader to share the writer's change of heart. Pennington, on the other hand, uses a formal letter, heavy with emotive language and metaphor, such as 'The mind of youth is as wax' and 'a knife may carve a loaf or cut a throat', and relies on authority and a call to action rather than personal experience. Both writers use examples of young people's behaviour, but Source A offers the 'squad' helping a friend revise, whereas Source B offers children throwing stones, so the same type of evidence supports opposite conclusions. Both also try to guide the reader's view: the first by reassurance, the second by alarm.",
+      "acceptable": [
+        "A: moves from fear to acceptance; B: certain and condemning from the outset",
+        "A: personal anecdote, humour and a calm, balanced tone; B: formal, authoritative letter",
+        "A: first person and a reassuring ending; B: emotive vocabulary, metaphor and a call to action",
+        "Both use examples of young people's behaviour, to support opposite views",
+        "A: appeals to the experience of earlier generations ('wireless', 'television'); B: appeals to morality, religion and duty",
+        "Comparison of audience: parents today vs. readers of a newspaper in 1867"
+      ],
+      "notes": "Reward a sustained comparison that links attitudes to methods. Both sources must be used. Do not credit separate summaries of each text that make no comparison above Level 2."
+    },
+    {
+      "number": 5,
+      "topic": "Writing to present a viewpoint",
+      "text": "You are advised to spend about 45 minutes on this section.\nWrite in full sentences.\nYou are reminded of the need to plan your answer.\nYou should leave enough time to check your work at the end.\n\n'Young people today spend too much time on screens and not enough time on worthwhile activities.'\n\nWrite an article for a school or college magazine in which you explain your point of view on this statement.\n\n(24 marks for content and organisation\n16 marks for technical accuracy)\n[40 marks]",
+      "model_answer": "Plan: (1) hook with a direct address or a surprising fact; (2) state a clear point of view early, either for, against or a balanced position; (3) three developed paragraphs, each with a point, an example and an explanation of why it matters; (4) acknowledge and answer a counter-argument; (5) a closing paragraph that returns to the opening idea and ends with a memorable line. Techniques: rhetorical questions, a list of three, direct address, anecdote, a short sentence for emphasis. Exemplar opening: 'It is ten past midnight and the glow under my bedroom door says it all. We have been told that we are a generation lost in our screens. But before you reach for the off switch, ask yourself a simple question: who is really losing something?'",
+      "acceptable": [
+        "A clear viewpoint sustained throughout",
+        "Appropriate form and register for a school or college magazine",
+        "Developed paragraphs with ideas, examples and explanation",
+        "A counter-argument that is acknowledged and answered",
+        "Deliberate rhetorical techniques and varied sentence structures",
+        "Accurate spelling, punctuation and grammar, including for effect"
+      ],
+      "notes": "Mark content and organisation (24) and technical accuracy (16) separately. Reward a clear, personal viewpoint with purpose and audience in mind. Do not credit copying phrases from the sources."
+    }
+  ]
+}

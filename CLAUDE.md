@@ -20,6 +20,17 @@ differs).
   them and flags questions outside them; (2) teacher reviews and approves each draft (`Exam.status`) before students
   get it. `ALLOW_STUDENT_ON_DEMAND=true` is a demo-only escape hatch (labelled unreviewed drafts, queued for review).
 
+## Demo pool (authored offline)
+- **Do not call Gemini without the user's explicit approval** (free quota is ~20 requests/day/model and was drained once).
+  Test with fake LLMs. Claude writes content; Gemini only marks student answers at demo time.
+- Papers live in `demo_pool/authored/*.json` (AuthoredPaper in `core/pool.py`); `tools/build_pool.py` builds them into
+  `demo_pool/exams/` as drafts, validated offline. `core/rubrics.py` holds our own levels-based marking criteria.
+- `pool.seed()` runs on app start; `pool.export()` ("Save review decisions to the demo pool") persists approvals, pins and
+  syllabus. Pool records never contain reference-document text (`context_chunks` is stripped).
+- Pins: `exam_store.set_pin / get_pins` (`data/pins.json`); a pinned paper is served to every student of that format,
+  withdrawing a paper unpins it.
+- The syllabus in `demo_pool/syllabus/` ships UNAPPROVED; a human must approve it in the Teacher Panel.
+
 ## Platform shell (brief v2)
 - Navigation is `st.session_state["view"]`: landing, student_selection, exam, results, teacher (`ui.components.goto`).
 - `config/curriculum_data.py` holds the full hierarchy; nodes without `active: True` show Coming Soon. English
@@ -64,6 +75,7 @@ differs).
 - Paper 2 Q1 (choose four) needed a stricter prompt plus `_lift_statements` repair; **not yet re-verified live**.
 
 ## Next steps
+0. Human review: approve the syllabus, review the four pool papers, pin/approve, then "Save review decisions" and commit demo_pool/.
 1. Build Quick Quiz and Practice by Topic, and per-question teacher actions with a question bank.
 2. Enable billing, then live-test `gcse_eng_p2` (Q1 should have 8 options) and the Topic Test format.
 3. Click through the Streamlit UI by hand: syllabus approve, generate, review (flag/edit/approve/reject), student attempt,

@@ -1,0 +1,142 @@
+{
+  "slug": "p1-bakery",
+  "paper_key": "gcse_eng_p1",
+  "difficulty": "Higher",
+  "instructions": [
+    "Answer all questions.",
+    "You must answer the questions in the spaces provided.",
+    "Do not write on blank pages.",
+    "The marks for questions are shown in brackets.",
+    "The maximum mark for this paper is 80.",
+    "You are advised to spend about 15 minutes reading through the source and all five questions before you begin your answers.",
+    "You are reminded of the need for good English and clear presentation in your answers."
+  ],
+  "sources": [
+    {
+      "label": "Source A",
+      "title": "Before the City Wakes",
+      "lines": [
+        "At four in the morning the bakery on Linden Row is the only",
+        "lit window in the street. Inside, the ovens roar like a small",
+        "and contented dragon, and the air is thick enough to chew: flour,",
+        "yeast, burnt sugar, the sweet scorch of crust on the edge of turning.",
+        "Nadia has been awake for an hour and a half and her",
+        "arms already ache, but she does not mind. She likes this part of the day best,",
+        "when the work is all hands and heat and nobody wants to talk.",
+        "Trays slide in. Trays slide out. The great steel mixer shudders on its stand",
+        "and grinds the dough into a pale, elastic mass that gleams",
+        "under the strip lights like the belly of some enormous fish.",
+        "Her uncle Tomasz works at the counter with his back turned, humming",
+        "something tuneless, his apron grey with dust to the elbows. He",
+        "has done this for thirty-one years. He says it is not a job",
+        "but a promise, though to whom he has never explained.",
+        "Outside, the street is black and wet. A bin lorry grinds past",
+        "without stopping and its lights swing across the ceiling, stretching the shadows",
+        "of the cooling racks into long bars that creep and shrink and are gone.",
+        "Then, abruptly, the noise stops. The mixer winds down with a sigh.",
+        "In the sudden quiet Nadia can hear the tick of the oven",
+        "doors cooling and, beneath it, a different sound: a thin, scratching, uncertain noise",
+        "from the back door. She frowns. Tomasz does not turn.",
+        "'Rats,' he says, without conviction.",
+        "But Nadia has already wiped her hands and crossed the floor. The back",
+        "door sticks, as it always does; she has to put her shoulder to it.",
+        "The cold comes in like a slap. On the step, shivering inside a",
+        "coat three sizes too big, stands a boy of about seven, a paper",
+        "bag clutched in both fists. His hair is plastered flat with rain. He looks at her",
+        "and then past her, towards the light, the warmth, the smell of bread.",
+        "'Is it true,' he says, very carefully, as if he has practised the sentence,",
+        "'that you give away the ones that are burnt?'",
+        "For a moment Nadia cannot speak. Behind her the ovens tick. She",
+        "thinks of the tray of loaves she scraped into the bin last night, hating herself",
+        "a little for the waste, and of how neat and tidy that choice had seemed.",
+        "'Wait there,' she says. It comes out rougher than she intended.",
+        "She goes back inside. Tomasz has stopped humming. He is standing very",
+        "still, a long loaf in each hand, and he is looking not at her but",
+        "at the door. Without a word he holds the loaves out to her,",
+        "golden, unburnt, still breathing steam, and for the first time that morning",
+        "Nadia sees that he is smiling."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "topic": "Retrieving explicit and implicit information",
+      "text": "Read again lines 1 to 10 of the source.\nList four things from this part of the source about the bakery.",
+      "model_answer": "Any four of: the bakery is the only lit window in the street; the ovens roar (like a small, contented dragon); the air is thick with the smell of flour, yeast and burnt sugar; Nadia has been awake for an hour and a half and her arms ache; Nadia likes this part of the day best because nobody wants to talk; trays are constantly sliding in and out; a great steel mixer grinds the dough into a pale, elastic mass.",
+      "acceptable": [
+        "It is four in the morning and the bakery is the only lit window",
+        "The ovens roar like a contented dragon",
+        "The air is thick with flour, yeast and burnt sugar",
+        "Nadia has been awake for an hour and a half",
+        "Her arms ache but she does not mind",
+        "It is the part of the day when nobody wants to talk",
+        "The steel mixer shudders and grinds the dough",
+        "The dough gleams like the belly of an enormous fish"
+      ],
+      "notes": "Credit only points from lines 1 to 10. Do not credit information about Tomasz (line 11 onwards). Candidates may quote or paraphrase."
+    },
+    {
+      "number": 2,
+      "topic": "Language analysis and terminology",
+      "text": "Look in detail at lines 24 to 30 of the source.\nHow does the writer use language here to present the boy?\nYou could include the writer's choice of:\nwords and phrases\nlanguage features and techniques\nsentence forms.",
+      "model_answer": "The writer presents the boy as small, vulnerable and brave all at once. The simile 'The cold comes in like a slap' makes the weather seem violent and highlights how exposed the boy is, standing in it. The description of him 'shivering inside a coat three sizes too big' suggests that he has been given or has borrowed clothes that do not fit, hinting at poverty and neglect, and the exaggeration of 'three sizes' invites the reader's pity. The paper bag 'clutched in both fists' uses the verb 'clutched' to show how tightly he holds on to the little he has, and the plural 'fists' suggests both determination and fear. His hair is 'plastered flat with rain', which paints a picture of someone who has been outside for a long time. When he speaks, the adverb in 'very carefully' and the clause 'as if he has practised the sentence' show that he has rehearsed his request and is trying hard to be polite, which makes the reader feel sympathy and admiration. His question about 'the ones that are burnt' is simple and direct, and its innocence is moving because it shows how little he is asking for.",
+      "acceptable": [
+        "Simile: 'The cold comes in like a slap'",
+        "'shivering inside a coat three sizes too big': vulnerability and neglect",
+        "'clutched in both fists': verb choice showing anxiety and determination",
+        "'plastered flat with rain': he has been outside for a long time",
+        "'He looks at her and then past her, towards the light, the warmth, the smell of bread': a list of sensory longing",
+        "'very carefully, as if he has practised the sentence': politeness and bravery",
+        "Simple direct speech reveals innocence and need"
+      ],
+      "notes": "Reward comment on the effect on the reader. Do not credit comment on the structure of the whole text, or on lines outside 24 to 30. A feature identified without a quotation cannot reach Level 3."
+    },
+    {
+      "number": 3,
+      "topic": "Structure and perspective",
+      "text": "You now need to think about the whole of the source.\nThis text is from the opening of a story.\nHow has the writer structured the text to interest you as a reader?\nYou could write about:\nwhat the writer focuses your attention on at the beginning\nhow and why the writer changes this focus as the source develops\nany other structural features that interest you.",
+      "model_answer": "The writer begins inside the bakery with a barrage of sensory detail: heat, noise, smell and the constant rhythm of 'Trays slide in. Trays slide out.' This immersive opening establishes a world of routine and makes the reader feel the intensity of the work. The focus then moves from Nadia to her uncle Tomasz and the claim that his job is 'a promise', which hints at a deeper story and makes the reader curious about what he has promised. A brief widening of perspective takes us outside the window to the bin lorry, whose lights stretch and shrink the shadows, a small moment of movement that prepares us for the change to come. The turning point is the sudden silence when the mixer stops, which shifts the focus from the busy interior to a small, uncertain noise at the door. From here the pace slows and the sentences become shorter and more tentative until the boy appears and the writer turns to dialogue. The final section is a reversal: the question about burnt bread brings Nadia's guilt to the surface and the story closes on Tomasz's unexpected smile, which resolves the tension and rewards the earlier hint that his work is a promise.",
+      "acceptable": [
+        "Opens with immersive sensory description of the bakery's routine",
+        "Shift of focus from Nadia to Tomasz and his 'promise'",
+        "Brief widening of focus to the street, creating a sense of the world outside",
+        "The sudden silence as a turning point; the pace and focus change",
+        "Move from description to dialogue and a small drama",
+        "Nadia's guilt about wasted bread revealed in the second half",
+        "Ending on Tomasz's smile; the closing image resolves the earlier hint about the 'promise'"
+      ],
+      "notes": "This question is about structure: sequence, shifts of focus, pace, perspective and the ending. Do not credit analysis of individual words unless it is linked to structure."
+    },
+    {
+      "number": 4,
+      "topic": "Critical evaluation of texts",
+      "text": "Focus this part of your answer on the second part of the source, from line 18 to the end.\nA student, having read this section of the text, said: 'The writer suggests that Nadia and her uncle are kinder than they first appear.'\nTo what extent do you agree?\nIn your response, you could:\nwrite about your own impressions of Nadia and Tomasz\nevaluate how the writer has created these impressions\nsupport your opinions with references to the text.",
+      "model_answer": "I largely agree with the student, because the writer uses small details in this section to reveal warmth beneath a hard exterior. At first Tomasz seems indifferent. He does not turn when the noise comes from the door and dismisses it as 'Rats', which the writer undercuts with the phrase 'without conviction', hinting that he suspects something more. Nadia, too, seems brisk when she 'put[s] her shoulder' to the sticking door, yet she is the one who notices the sound and investigates, which shows her instinctive care. The boy's request, 'that you give away the ones that are burnt?', pushes Nadia to examine her conscience: she remembers scraping loaves 'into the bin', 'hating herself a little for the waste', and the word 'neat' in 'neat and tidy' suggests that she had hidden her guilt behind routine. Her speech 'comes out rougher than she intended', which suggests that her sternness is a way of covering emotion. The ending is the strongest evidence. Tomasz 'has stopped humming', looks 'not at her but at the door', and holds out loaves that are 'golden, unburnt, still breathing steam'. The personification of the bread 'breathing' makes the gift feel alive, and his smile shows that his kindness was there all along. However, I would not say the characters are completely transformed; they remain quiet and practical, which makes the kindness seem more genuine.",
+      "acceptable": [
+        "Tomasz's dismissive 'Rats' undercut by 'without conviction'",
+        "Nadia investigates the noise; her care is instinctive",
+        "Nadia's guilt about the burnt loaves and the word 'neat'",
+        "Her speech 'comes out rougher than she intended': sternness covering emotion",
+        "Tomasz stops humming and offers fresh unburnt loaves; the personification 'breathing steam'",
+        "His smile as the final image of hidden kindness",
+        "Evaluation of methods: delayed reveal, dialogue, closing image"
+      ],
+      "notes": "Reward a personal, evaluative response with a clear line of argument. The focus is lines 18 to the end. Do not credit narrative retelling or comment on lines 1 to 17."
+    },
+    {
+      "number": 5,
+      "topic": "Descriptive and narrative writing",
+      "text": "You are advised to spend about 45 minutes on this section.\nWrite in full sentences.\nYou are reminded of the need to plan your answer.\nYou should leave enough time to check your work at the end.\n\nEITHER\nWrite a description suggested by this scene: a street market at night, as the stalls are being packed away and the lights go out one by one.\n\nOR\nWrite the opening part of a story that begins with an unexpected knock at the door.\n\n(24 marks for content and organisation\n16 marks for technical accuracy)\n[40 marks]",
+      "model_answer": "Plan (narrative): open with the knock itself (sound, then the character's reaction); establish one clear character and one clear problem; delay revealing who is outside; use a short paragraph for the knock and longer sentences for the character's thoughts; end the opening on a question or an object. Exemplar opening: 'The knock came three times, soft as a secret. Marcus stopped with the kettle halfway to the tap. Nobody knocked at this hour; nobody had knocked at all since the day the letters stopped. He crossed the hallway slowly, counting the tiles, and stood with his palm flat against the cold wood, listening to someone breathe on the other side.'",
+      "acceptable": [
+        "A controlled opening with a clear sense of time and place",
+        "A deliberate structure: a turning point or a shift of focus",
+        "Ambitious but controlled vocabulary and figurative language",
+        "Varied sentence structures and accurate punctuation, including for effect",
+        "For the description option: a clear sense of the scene changing as the lights go out"
+      ],
+      "notes": "Mark content and organisation (24) and technical accuracy (16) separately. Reward writing that is purposeful and controlled rather than long. Do not penalise either choice of task."
+    }
+  ]
+}

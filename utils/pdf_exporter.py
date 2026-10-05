@@ -127,10 +127,11 @@ def export_exam(exam: Exam) -> bytes:
     story.append(PageBreak())
     section = None
     for q in exam.questions:
+        heading = []
         if q.section != section:
             section = q.section
-            story.append(_p(section, "h2"))
-        block = [_question_header(q.number, q.marks), *_question_body(q.question_text)]
+            heading = [_p(section, "h2")]  # kept with the first question so it is never stranded
+        block = [*heading, _question_header(q.number, q.marks), *_question_body(q.question_text)]
         if q.question_type in (QuestionType.MCQ, QuestionType.TRUE_FALSE, QuestionType.MULTI_SELECT):
             block += [_p(f"☐  {chr(65 + i)}. {opt}") for i, opt in enumerate(q.options)]
         else:

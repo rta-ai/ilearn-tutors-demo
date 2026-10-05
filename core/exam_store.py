@@ -6,6 +6,7 @@ with database access (e.g. Supabase tables ``exams``, ``mark_schemes``,
 """
 from __future__ import annotations
 
+import json
 import random
 from datetime import datetime, timezone
 
@@ -54,6 +55,8 @@ def set_status(exam_id: str, status: str, note: str = "", flagged: list[int] | N
     if rec is None:
         return None
     rec.exam.status = status
+    if status != "approved":
+        set_pin(rec.exam, False)
     rec.exam.reviewer_note = note
     rec.exam.reviewed_at = _now()
     if flagged is not None:
@@ -88,11 +91,41 @@ def approved_formats(subject: str) -> list[tuple[str, str, str, int]]:
     return sorted({_format_key(r.exam) for r in list_records(subject, "approved")})
 
 
+def pin_key(exam: Exam) -> str:
+    return "|".join(map(str, _format_key(exam)))
+
+
+def get_pins() -> dict[str, str]:
+    """Teacher-pinned paper per format: {format key: exam_id}. Pinned papers are served to every student."""
+    try:
+        return json.loads(settings.PINS_FILE.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+
+
+def set_pin(exam: Exam, pinned: bool) -> None:
+    pins = get_pins()
+    if pinned:
+        pins[pin_key(exam)] = exam.exam_id
+    elif pins.get(pin_key(exam)) == exam.exam_id:
+        del pins[pin_key(exam)]
+    settings.PINS_FILE.parent.mkdir(parents=True, exist_ok=True)
+    settings.PINS_FILE.write_text(json.dumps(pins, indent=2), encoding="utf-8")
+
+
+def is_pinned(exam: Exam) -> bool:
+    return get_pins().get(pin_key(exam)) == exam.exam_id
+
+
 def pick_approved(
     subject: str, fmt: tuple[str, str, str, int], exclude: set[str] = frozenset()
 ) -> ExamRecord | None:
-    """A random approved paper for the format, preferring ones the student has not attempted."""
+    """The pinned paper if the teacher pinned one, else a random approved paper (preferring unseen ones)."""
     pool = [r for r in list_records(subject, "approved") if _format_key(r.exam) == fmt and r.mark_scheme]
+    pinned_id = get_pins().get("|".join(map(str, fmt)))
+    pinned = next((r for r in pool if r.exam.exam_id == pinned_id), None)
+    if pinned:
+        return pinned
     fresh = [r for r in pool if r.exam.exam_id not in exclude]
     choices = fresh or pool
     return random.choice(choices) if choices else None
