@@ -1,0 +1,10 @@
+.env
+.venv
+.git
+__pycache__
+*.pyc
+data/chroma_db
+data/ocr_cache
+data/exams
+data/attempts
+data/sample_papers/*.pdf
