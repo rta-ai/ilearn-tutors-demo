@@ -110,6 +110,10 @@ def _css() -> str:
     return "\n".join(css)
 
 
+def _exit_reduced() -> None:
+    st.session_state["a11y_reduced"] = False
+
+
 def apply() -> None:
     """Inject CSS and the colour overlay for the current settings."""
     st.markdown(f"<style>{_css()}</style>", unsafe_allow_html=True)
@@ -120,6 +124,5 @@ def apply() -> None:
             unsafe_allow_html=True,
         )
     if st.session_state["a11y_reduced"]:
-        if st.button("Exit reduced distraction mode", key="exit_reduced"):
-            st.session_state["a11y_reduced"] = False
-            st.rerun()
+        # A callback runs before the sidebar toggle (same key) is instantiated, so it may change that key.
+        st.button("Exit reduced distraction mode", key="exit_reduced", on_click=_exit_reduced)
